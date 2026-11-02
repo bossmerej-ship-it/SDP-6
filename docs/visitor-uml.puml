@@ -8,6 +8,7 @@ skinparam classBorderColor #263442
 skinparam ArrowColor #263442
 skinparam classAttributeIconSize 0
 hide empty members
+top to bottom direction
 
 interface Element {
   + getName(): String
@@ -65,6 +66,9 @@ Visitor <|.. TreeVisitor
 TreeVisitor <|-- TotalSizeVisitor
 TreeVisitor <|-- SearchVisitor
 TreeVisitor <|-- StatisticsVisitor
+
+FileNode -[hidden]down-> Visitor
+DirectoryNode -[hidden]down-> Visitor
 
 legend bottom
   Public pattern methods and selected element fields are shown.

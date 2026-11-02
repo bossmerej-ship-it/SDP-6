@@ -1,88 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1740" height="900" viewBox="0 0 1740 900">
-<rect width="1740" height="900" fill="white"/>
-<polyline points="515,110 1030,110" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
-<polyline points="1015.0,118.0 1030,110 1015.0,102.0" fill="none" stroke="#263442" stroke-width="2"/>
-<polyline points="335,290 335,220" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="335,220 348.0,245.0 322.0,245.0" fill="white" stroke="#263442" stroke-width="2"/>
-<polyline points="1240,290 1240,220" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1240,220 1253.0,245.0 1227.0,245.0" fill="white" stroke="#263442" stroke-width="2"/>
-<polyline points="170,620 170,550 500,550 500,620" fill="none" stroke="#263442" stroke-width="2"/>
-<polyline points="335,550 335,490" fill="none" stroke="#263442" stroke-width="2"/>
-<polygon points="335,490 348.0,515.0 322.0,515.0" fill="white" stroke="#263442" stroke-width="2"/>
-<polyline points="910,620 910,570 1570,570 1570,620" fill="none" stroke="#263442" stroke-width="2"/>
-<polyline points="1240,620 1240,570" fill="none" stroke="#263442" stroke-width="2"/>
-<polyline points="1240,570 1240,520" fill="none" stroke="#263442" stroke-width="2"/>
-<polygon points="1240,520 1253.0,545.0 1227.0,545.0" fill="white" stroke="#263442" stroke-width="2"/>
-<polyline points="672,710 700,710 700,430 515,430" fill="none" stroke="#263442" stroke-width="2"/>
-<polygon points="650,710 661,703 672,710 661,717" fill="#263442" stroke="#263442" stroke-width="2"/>
-<text x="535" y="418" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442">0..*</text>
-<text x="657" y="744" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442">0..1</text>
-<rect x="155" y="70" width="360" height="150" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="156" y="71" width="358" height="71" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="335.0" y="95" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442" text-anchor="middle">&lt;&lt;interface&gt;&gt;</text>
-<text x="335.0" y="124" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">Element</text>
-<polyline points="155,142 515,142" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="170" y="174" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getName(): String</text>
-<text x="170" y="202" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ accept(Visitor): void</text>
-<rect x="155" y="290" width="360" height="200" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="156" y="291" width="358" height="71" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="335.0" y="315" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442" text-anchor="middle">&lt;&lt;abstract&gt;&gt;</text>
-<text x="335.0" y="344" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">Node</text>
-<polyline points="155,362 515,362" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="170" y="394" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">- name: String</text>
-<text x="170" y="422" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">- parent: DirectoryNode</text>
-<text x="170" y="450" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getName(): String</text>
-<rect x="20" y="620" width="300" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="21" y="621" width="298" height="49" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="170.0" y="653" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">FileNode</text>
-<polyline points="20,670 320,670" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="35" y="702" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">- size: long</text>
-<text x="35" y="730" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getSize(): long</text>
-<text x="35" y="758" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ accept(Visitor): void</text>
-<rect x="350" y="620" width="300" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="351" y="621" width="298" height="49" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="500.0" y="653" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">DirectoryNode</text>
-<polyline points="350,670 650,670" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="365" y="702" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">- children: List&lt;Node&gt;</text>
-<text x="365" y="730" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ addChild(Node): void</text>
-<text x="365" y="758" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getChildren(): List&lt;Node&gt;</text>
-<text x="365" y="786" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ accept(Visitor): void</text>
-<rect x="1030" y="70" width="420" height="150" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="1031" y="71" width="418" height="71" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="1240.0" y="95" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442" text-anchor="middle">&lt;&lt;interface&gt;&gt;</text>
-<text x="1240.0" y="124" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">Visitor</text>
-<polyline points="1030,142 1450,142" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="1045" y="174" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(FileNode): void</text>
-<text x="1045" y="202" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(DirectoryNode): void</text>
-<rect x="1030" y="290" width="420" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="1031" y="291" width="418" height="71" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="1240.0" y="315" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#263442" text-anchor="middle">&lt;&lt;abstract&gt;&gt;</text>
-<text x="1240.0" y="344" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">TreeVisitor</text>
-<polyline points="1030,362 1450,362" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="1045" y="394" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ scan(Element): void</text>
-<text x="1045" y="422" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(DirectoryNode): void</text>
-<text x="1045" y="450" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442"># reset(): void</text>
-<text x="1045" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442"># getCurrentPath(): String</text>
-<text x="1045" y="506" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442"># getCurrentDepth(): int</text>
-<rect x="760" y="620" width="300" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="761" y="621" width="298" height="49" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="910.0" y="653" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">TotalSizeVisitor</text>
-<polyline points="760,670 1060,670" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="775" y="702" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(FileNode): void</text>
-<text x="775" y="730" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getTotalSize(): long</text>
-<rect x="1090" y="620" width="300" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="1091" y="621" width="298" height="49" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="1240.0" y="653" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">SearchVisitor</text>
-<polyline points="1090,670 1390,670" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="1105" y="702" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(FileNode): void</text>
-<text x="1105" y="730" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getMatches(): List&lt;String&gt;</text>
-<rect x="1420" y="620" width="300" height="230" fill="white" stroke="#263442" stroke-width="2"/>
-<rect x="1421" y="621" width="298" height="49" fill="#f1f4f6" stroke="none" stroke-width="2"/>
-<text x="1570.0" y="653" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#263442" text-anchor="middle" font-weight="700">StatisticsVisitor</text>
-<polyline points="1420,670 1720,670" fill="none" stroke="#263442" stroke-width="2"/>
-<text x="1435" y="702" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(FileNode): void</text>
-<text x="1435" y="730" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ visit(DirectoryNode): void</text>
-<text x="1435" y="758" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getFileCount(): int</text>
-<text x="1435" y="786" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getDirectoryCount(): int</text>
-<text x="1435" y="814" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#263442">+ getMaxDepth(): int</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1090" viewBox="0 0 1000 1090">
+<rect width="1000" height="1090" fill="white"/>
+<polyline points="670,60 980,60 980,544 700,544" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="715.0,536.0 700,544 715.0,552.0" fill="none" stroke="#263442" stroke-width="2"/>
+<polyline points="500,165 500,133" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="500,133 510.0,151.0 490.0,151.0" fill="white" stroke="#263442" stroke-width="2"/>
+<polyline points="260,340 260,322 740,322 740,340" fill="none" stroke="#263442" stroke-width="2"/>
+<polyline points="500,322 500,302" fill="none" stroke="#263442" stroke-width="2"/>
+<polygon points="500,302 510.0,320.0 490.0,320.0" fill="white" stroke="#263442" stroke-width="2"/>
+<polyline points="922,414 940,414 940,238 670,238" fill="none" stroke="#263442" stroke-width="2"/>
+<polygon points="900,414 911,407 922,414 911,421" fill="#263442" stroke="#263442" stroke-width="2"/>
+<text x="688" y="227" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#263442">0..*</text>
+<text x="905" y="443" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#263442">0..1</text>
+<polyline points="500,663 500,628" fill="none" stroke="#263442" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="500,628 510.0,646.0 490.0,646.0" fill="white" stroke="#263442" stroke-width="2"/>
+<polyline points="170,910 170,882 830,882 830,910" fill="none" stroke="#263442" stroke-width="2"/>
+<polyline points="500,910 500,882" fill="none" stroke="#263442" stroke-width="2"/>
+<polyline points="500,882 500,848" fill="none" stroke="#263442" stroke-width="2"/>
+<polygon points="500,848 510.0,866.0 490.0,866.0" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="330" y="20" width="340" height="113" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="331" y="21" width="338" height="51" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="500.0" y="36" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#263442" text-anchor="middle">&lt;&lt;interface&gt;&gt;</text>
+<text x="500.0" y="58" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">Element</text>
+<polyline points="330,72 670,72" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="344" y="95" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getName(): String</text>
+<text x="344" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ accept(Visitor): void</text>
+<rect x="330" y="165" width="340" height="137" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="331" y="166" width="338" height="51" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="500.0" y="181" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#263442" text-anchor="middle">&lt;&lt;abstract&gt;&gt;</text>
+<text x="500.0" y="203" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">Node</text>
+<polyline points="330,217 670,217" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="344" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">- name: String</text>
+<text x="344" y="264" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">- parent: DirectoryNode</text>
+<text x="344" y="288" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getName(): String</text>
+<rect x="100" y="340" width="320" height="119" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="101" y="341" width="318" height="33" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="260.0" y="364" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">FileNode</text>
+<polyline points="100,374 420,374" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="114" y="397" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">- size: long</text>
+<text x="114" y="421" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getSize(): long</text>
+<text x="114" y="445" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ accept(Visitor): void</text>
+<rect x="580" y="340" width="320" height="143" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="581" y="341" width="318" height="33" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="740.0" y="364" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">DirectoryNode</text>
+<polyline points="580,374 900,374" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="594" y="397" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">- children: List&lt;Node&gt;</text>
+<text x="594" y="421" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ addChild(Node): void</text>
+<text x="594" y="445" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getChildren(): List&lt;Node&gt;</text>
+<text x="594" y="469" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ accept(Visitor): void</text>
+<rect x="300" y="515" width="400" height="113" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="301" y="516" width="398" height="51" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="500.0" y="531" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#263442" text-anchor="middle">&lt;&lt;interface&gt;&gt;</text>
+<text x="500.0" y="553" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">Visitor</text>
+<polyline points="300,567 700,567" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="314" y="590" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(FileNode): void</text>
+<text x="314" y="614" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(DirectoryNode): void</text>
+<rect x="290" y="663" width="420" height="185" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="291" y="664" width="418" height="51" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="500.0" y="679" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#263442" text-anchor="middle">&lt;&lt;abstract&gt;&gt;</text>
+<text x="500.0" y="701" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">TreeVisitor</text>
+<polyline points="290,715 710,715" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="304" y="738" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ scan(Element): void</text>
+<text x="304" y="762" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(DirectoryNode): void</text>
+<text x="304" y="786" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442"># reset(): void</text>
+<text x="304" y="810" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442"># getCurrentPath(): String</text>
+<text x="304" y="834" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442"># getCurrentDepth(): int</text>
+<rect x="20" y="910" width="300" height="95" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="21" y="911" width="298" height="33" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="170.0" y="934" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">TotalSizeVisitor</text>
+<polyline points="20,944 320,944" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="34" y="967" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(FileNode): void</text>
+<text x="34" y="991" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getTotalSize(): long</text>
+<rect x="350" y="910" width="300" height="95" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="351" y="911" width="298" height="33" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="500.0" y="934" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">SearchVisitor</text>
+<polyline points="350,944 650,944" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="364" y="967" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(FileNode): void</text>
+<text x="364" y="991" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getMatches(): List&lt;String&gt;</text>
+<rect x="680" y="910" width="300" height="167" fill="white" stroke="#263442" stroke-width="2"/>
+<rect x="681" y="911" width="298" height="33" fill="#f1f4f6" stroke="none" stroke-width="2"/>
+<text x="830.0" y="934" font-family="Segoe UI,Arial,sans-serif" font-size="21.5" fill="#263442" text-anchor="middle" font-weight="700">StatisticsVisitor</text>
+<polyline points="680,944 980,944" fill="none" stroke="#263442" stroke-width="2"/>
+<text x="694" y="967" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(FileNode): void</text>
+<text x="694" y="991" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ visit(DirectoryNode): void</text>
+<text x="694" y="1015" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getFileCount(): int</text>
+<text x="694" y="1039" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getDirectoryCount(): int</text>
+<text x="694" y="1063" font-family="Segoe UI,Arial,sans-serif" font-size="18.5" fill="#263442">+ getMaxDepth(): int</text>
 </svg>

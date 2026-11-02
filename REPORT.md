@@ -4,6 +4,8 @@ Assignment 6 | Software Design Patterns | Java 17 and Maven
 Student: **Kuatbay Merey** | Group: **SE-2537**  
 Course: ShP-2216 | Academic year: 2026-2027
 
+GitHub: [github.com/bossmerej-ship-it/SDP-6](https://github.com/bossmerej-ship-it/SDP-6)
+
 ## 1 Introduction
 
 The project models a small file system in memory. Files store a name and byte size; directories contain named children and can be nested. Three visitors work on the same tree: `TotalSizeVisitor` sums file sizes, `SearchVisitor` finds matching files, and `StatisticsVisitor` counts files and directories and finds maximum depth.

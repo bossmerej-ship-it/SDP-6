@@ -1,0 +1,76 @@
+@startuml
+title File system - Visitor pattern
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName "Segoe UI"
+skinparam classBackgroundColor #F1F4F6
+skinparam classBorderColor #263442
+skinparam ArrowColor #263442
+skinparam classAttributeIconSize 0
+hide empty members
+
+interface Element {
+  + getName(): String
+  + accept(visitor: Visitor): void
+}
+abstract class Node {
+  - name: String
+  - parent: DirectoryNode
+  + getName(): String
+}
+class FileNode {
+  - size: long
+  + getSize(): long
+  + accept(visitor: Visitor): void
+}
+class DirectoryNode {
+  - children: List<Node>
+  + addChild(child: Node): void
+  + getChildren(): List<Node>
+  + accept(visitor: Visitor): void
+}
+interface Visitor {
+  + visit(file: FileNode): void
+  + visit(directory: DirectoryNode): void
+}
+abstract class TreeVisitor {
+  + scan(root: Element): void
+  + visit(directory: DirectoryNode): void
+  # reset(): void
+  # getCurrentPath(): String
+  # getCurrentDepth(): int
+}
+class TotalSizeVisitor {
+  - totalSize: long
+  + visit(file: FileNode): void
+  + getTotalSize(): long
+}
+class SearchVisitor {
+  - filenameCriterion: Predicate<String>
+  - minimumSize: long
+  + visit(file: FileNode): void
+  + getMatches(): List<String>
+}
+class StatisticsVisitor {
+  + visit(file: FileNode): void
+  + visit(directory: DirectoryNode): void
+  + getFileCount(): int
+  + getDirectoryCount(): int
+  + getMaxDepth(): int
+}
+
+Element <|.. Node
+Node <|-- FileNode
+Node <|-- DirectoryNode
+DirectoryNode "0..1" *-- "0..*" Node
+Element ..> Visitor
+Visitor <|.. TreeVisitor
+TreeVisitor <|-- TotalSizeVisitor
+TreeVisitor <|-- SearchVisitor
+TreeVisitor <|-- StatisticsVisitor
+
+legend bottom
+  Selected fields and public pattern operations are shown.
+  Main creates the tree and calls scan on each visitor.
+endlegend
+@enduml

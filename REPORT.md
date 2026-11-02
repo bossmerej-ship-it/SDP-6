@@ -93,4 +93,4 @@ References: *Assignment 6 Visitor Pattern - Advanced File System*, supplied brie
 
 ![UML class diagram](docs/visitor-uml.png)
 
-Figure 1. Dashed triangular arrows show interface realization; solid triangular arrows show inheritance. The filled diamond at `DirectoryNode` shows ownership of child nodes. A child has at most one parent. The dashed dependency from `Element` to `Visitor` represents the visitor argument. The diagram shows selected fields and pattern methods; constructors, private helpers and Java library types are omitted.
+Figure 1. Dashed triangles show interface realization; solid triangles show inheritance. The filled diamond at `DirectoryNode` shows ownership of child nodes, with at most one parent per child. The dashed dependency from `Element` to `Visitor` represents the visitor argument. Public pattern methods and selected element fields are shown; constructors, private helpers and Java library types are omitted.

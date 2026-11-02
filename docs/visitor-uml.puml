@@ -41,13 +41,10 @@ abstract class TreeVisitor {
   # getCurrentDepth(): int
 }
 class TotalSizeVisitor {
-  - totalSize: long
   + visit(file: FileNode): void
   + getTotalSize(): long
 }
 class SearchVisitor {
-  - filenameCriterion: Predicate<String>
-  - minimumSize: long
   + visit(file: FileNode): void
   + getMatches(): List<String>
 }
@@ -70,7 +67,7 @@ TreeVisitor <|-- SearchVisitor
 TreeVisitor <|-- StatisticsVisitor
 
 legend bottom
-  Selected fields and public pattern operations are shown.
+  Public pattern methods and selected element fields are shown.
   Main creates the tree and calls scan on each visitor.
 endlegend
 @enduml

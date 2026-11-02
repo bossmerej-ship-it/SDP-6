@@ -60,7 +60,7 @@ class StatisticsVisitor {
 Element <|.. Node
 Node <|-- FileNode
 Node <|-- DirectoryNode
-DirectoryNode "0..1" *-- "0..*" Node
+DirectoryNode *-- Node
 Element ..> Visitor
 Visitor <|.. TreeVisitor
 TreeVisitor <|-- TotalSizeVisitor

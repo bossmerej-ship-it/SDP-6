@@ -87,4 +87,4 @@ A new element type has a wider cost: add its overloaded method to `Visitor` and 
 
 `mvn test` runs **30 JUnit 5 tests** in `ElementTest`, `TotalSizeVisitorTest`, `SearchVisitorTest`, and `StatisticsVisitorTest`. They cover dispatch, nested totals, combined search conditions, relative/sorted paths, statistics, empty trees, repeat scans and invalid mutations.
 
-[REPORT.pdf](REPORT.pdf) contains three report pages and a compact UML diagram on page 2, all in portrait A4. [REPORT.md](REPORT.md) contains the same text. The diagram is supplied as [PNG](docs/visitor-uml.png), [SVG](docs/visitor-uml.svg), and [PlantUML source](docs/visitor-uml.puml).
+[PDF report](Assignment_6_Visitor_Pattern_Report.pdf) contains three report pages and a compact UML diagram on page 2, all in portrait A4. [Markdown report](Assignment_6_Visitor_Pattern_Report.md) contains the same text. The diagram is supplied as [PNG](docs/visitor-uml.png), [SVG](docs/visitor-uml.svg), and [PlantUML source](docs/visitor-uml.puml).
